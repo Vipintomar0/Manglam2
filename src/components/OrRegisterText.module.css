@@ -1,0 +1,611 @@
+.orRegisterTextChild {
+  width: calc(100% - 116px);
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 116px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close,
+.materialSymbolscloseIcon {
+  position: relative;
+  z-index: 1;
+}
+.materialSymbolscloseIcon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.frameGroupClose,
+.materialsymbolscloseFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.materialsymbolscloseFrame {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameGroupClose {
+  width: 531px;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.createAnAccount {
+  margin: 0;
+  font-size: inherit;
+  line-height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.alreadyHaveAn,
+.createAnAccount,
+.signIn {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.signIn {
+  color: var(--color-orangered);
+}
+.alreadyhaveAccountText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xl);
+  color: var(--gray-font-color);
+}
+.signinText,
+.welcomeFramesGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.signinText {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.welcomeFramesGroup {
+  width: 451px;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-21xl);
+}
+.frameChild,
+.fullName {
+  position: relative;
+  z-index: 1;
+}
+.fullName {
+  font-weight: 500;
+}
+.frameChild {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fullNameParent {
+  align-self: stretch;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-dimgray-500);
+}
+.icon,
+.password {
+  position: relative;
+}
+.password {
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 36px);
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+}
+.frameGroup,
+.instanceChild,
+.passwordParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameGroup {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.password1 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 36px);
+}
+.icon1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  flex-shrink: 0;
+}
+.frameContainer,
+.instanceItem,
+.passwordGroup {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceItem {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameContainer {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.password2 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon2 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) var(--padding-10xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-346xl);
+  flex-shrink: 0;
+}
+.groupDiv,
+.instanceInner,
+.passwordContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.instanceInner {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.groupDiv {
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.frameItem {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.rectangleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.materialSymbolskeyboardArroIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component7Child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component7 {
+  height: 43px;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.password3 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon3 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.signinForm {
+  width: 487px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-17xl) var(--padding-10xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-346xl);
+  max-width: 132%;
+  flex-shrink: 0;
+}
+.fullNameInput,
+.signinFormWrapper {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.signinFormWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fullNameInput {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent1 {
+  height: 41px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  min-width: 240px;
+  z-index: 1;
+}
+.component7Parent,
+.frameParent,
+.frameParent1,
+.passwordInputGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component7Parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.passwordInputGroup {
+  align-items: flex-start;
+}
+.frameParent {
+  width: 487px;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.passwordInputGroup {
+  width: 531px;
+  flex-direction: row;
+  min-height: 400px;
+  font-size: var(--font-size-lg);
+  color: var(--gray-font-color);
+}
+.checkboxRectangle {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--gray-font-color);
+  box-sizing: border-box;
+}
+.iHaveRead {
+  font-weight: 500;
+}
+.span,
+.termsOfService {
+  font-family: var(--font-roboto);
+  color: var(--color-orangered);
+}
+.span {
+  font-weight: 500;
+  color: var(--gray-font-color);
+}
+.iHaveReadAndAgreeToFixmy {
+  margin: 0;
+}
+.and,
+.span1 {
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--gray-font-color);
+}
+.andPrivacyPolicy {
+  margin: 0;
+  color: var(--color-orangered);
+}
+.password4 {
+  position: relative;
+}
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.frameInner {
+  height: 50px;
+  width: 487px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: none;
+  max-width: 100%;
+}
+.register {
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--blue-font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-sm)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.checkbox,
+.copyrightInstance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.copyrightInstance {
+  width: 487px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.checkbox {
+  width: 531px;
+  height: 139px;
+  flex-direction: row;
+  font-size: var(--font-size-base);
+  color: var(--gray-font-color);
+}
+.orRegisterWith {
+  position: relative;
+  z-index: 1;
+}
+.frameChild1,
+.frameChild2,
+.groupIcon {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  min-height: 65px;
+  z-index: 1;
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.orRegisterWithParent {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.orRegisterGroup {
+  width: 323px;
+  height: 130px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  color: var(--color-black);
+}
+.footer,
+.orRegisterGroup,
+.orRegisterText {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer {
+  width: 329px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.orRegisterText {
+  width: 851px;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-42xl)
+    var(--padding-45xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-40xl);
+  max-width: calc(100% - 1869px);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--blue-font-color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 2250px) {
+  .orRegisterText {
+    display: none;
+    max-width: calc(100% - 1164px);
+  }
+}
+@media screen and (max-width: 1650px) {
+  .orRegisterText {
+    display: none;
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+    max-width: calc(100% - 1164px);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .createAnAccount {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .passwordContainer,
+  .signinForm {
+    gap: var(--gap-346xl);
+  }
+  .copyrightInstance {
+    gap: var(--gap-21xl);
+  }
+  .orRegisterText {
+    display: none;
+    gap: var(--gap-40xl);
+    padding-left: var(--padding-13xl);
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+    max-width: calc(100% - 1164px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .close {
+    font-size: var(--font-size-base);
+  }
+  .createAnAccount {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .alreadyhaveAccountText {
+    display: none;
+  }
+  .orRegisterWith,
+  .register {
+    font-size: var(--font-size-base);
+  }
+  .orRegisterText {
+    display: none;
+    max-width: calc(100% - 1164px);
+  }
+}

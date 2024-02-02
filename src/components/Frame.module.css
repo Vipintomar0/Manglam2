@@ -1,0 +1,81 @@
+.backgroundIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.3px;
+  bottom: 0;
+  left: 0.2px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.label1,
+.name {
+  position: relative;
+  z-index: 1;
+}
+.name {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+.label1 {
+  line-height: 24px;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl);
+  color: var(--color-darkgray);
+}
+.div {
+  position: relative;
+  text-transform: uppercase;
+}
+.label2,
+.shapeParent {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.label2 {
+  height: 13px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+  z-index: 2;
+  margin-left: -74px;
+}
+.shapeParent {
+  width: 106px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.frame,
+.frameInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: var(--font-ubuntu);
+}
+.frame {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-56xl) var(--padding-6xl) var(--padding-12xl)
+    var(--padding-xl);
+  position: relative;
+  gap: var(--gap-2xs);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

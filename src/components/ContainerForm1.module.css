@@ -1,0 +1,202 @@
+.acharyaCardChild {
+  width: 123px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  height: 173px;
+  display: none;
+}
+.frameChild {
+  height: 72.9px;
+  width: 72.9px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.ratingChild {
+  width: 47.5px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  height: 21.2px;
+  display: none;
+}
+.div,
+.starIcon {
+  position: relative;
+  z-index: 1;
+}
+.starIcon {
+  height: 13.1px;
+  width: 13.6px;
+  border-radius: var(--br-xl);
+}
+.div {
+  height: 14px;
+  width: 7px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.acharyaCardInner,
+.rating,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating {
+  height: 22px;
+  width: 48px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -7.2px;
+  left: calc(50% - 23.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  padding: var(--padding-10xs) var(--padding-3xs) var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  z-index: 2;
+}
+.acharyaCardInner,
+.rectangleParent {
+  height: 73px;
+}
+.rectangleParent {
+  width: 73px;
+  position: relative;
+}
+.acharyaCardInner {
+  width: 81px;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.beautyParlor {
+  width: 79px;
+  height: 16px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.div1,
+.priceIcon {
+  height: 9.8px;
+  width: 6.8px;
+  position: relative;
+  z-index: 1;
+}
+.div1 {
+  height: 13px;
+  width: 16px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.priceIconParent {
+  height: 13px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.beautyParlorParent,
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 34px;
+  height: 13px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray-100);
+}
+.beautyParlorParent,
+.frameWrapper {
+  height: 30px;
+}
+.beautyParlorParent {
+  width: 79px;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.frameWrapper {
+  width: 85px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.connectChild {
+  width: 77.2px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-royalblue);
+  height: 25.4px;
+  display: none;
+}
+.connect1 {
+  height: 13px;
+  width: 42px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.connect {
+  width: 77px;
+  height: 26px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-lg) var(--padding-7xs)
+    var(--padding-mid);
+  box-sizing: border-box;
+  z-index: 1;
+  color: var(--color-white);
+}
+.acharyaCard,
+.frameParent {
+  width: 85px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.acharyaCard {
+  height: 175px;
+  width: 123px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  padding: var(--padding-2xs) var(--padding-mini) var(--padding-3xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,52 @@
+.blackStateOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.5px;
+  right: 0.5px;
+  bottom: 0.5px;
+  left: -0.5px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-300);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.body2,
+.maskIcon {
+  position: relative;
+  z-index: 1;
+}
+.body2 {
+  flex: 1;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.maskIcon {
+  width: 10px;
+  height: 5px;
+  object-fit: contain;
+}
+.materialAndroidDropdown,
+.rectangleB {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.materialAndroidDropdown {
+  width: 174px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-15xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-roboto);
+}

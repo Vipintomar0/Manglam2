@@ -1,0 +1,11 @@
+.copyright2022 {
+  position: absolute;
+  top: 0;
+  left: 3.5%;
+}
+.copyright2022FixMyBuild {
+  text-align: right;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-roboto);
+}

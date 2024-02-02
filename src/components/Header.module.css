@@ -1,0 +1,230 @@
+.fix {
+  font-weight: 900;
+}
+.mybuild {
+  color: var(--blue-font-color);
+}
+.aboutUs,
+.fixmybuild {
+  position: relative;
+  white-space: nowrap;
+}
+.fixmybuild {
+  height: 42px;
+  width: 157px;
+  font-size: var(--font-size-17xl);
+  text-align: left;
+  display: none;
+  z-index: 0;
+  color: var(--color-darkorange);
+}
+.aboutUs {
+  font-weight: 500;
+}
+.frame {
+  height: 133px;
+  width: 1180px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -69px;
+  left: 98px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contactUs {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 11;
+}
+.group11761 {
+  height: 39px;
+  width: 203px;
+  position: relative;
+  object-fit: cover;
+  z-index: 14;
+}
+.contactUsText {
+  width: 424px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.manglamEventsFrameChild {
+  height: 38px;
+  width: 102.5px;
+  position: relative;
+  display: none;
+}
+.login,
+.userIcon1 {
+  position: relative;
+  z-index: 14;
+}
+.userIcon1 {
+  height: 18px;
+  width: 15px;
+}
+.login {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--blue-font-color);
+  text-align: left;
+}
+.userIconParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.register {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent,
+.registerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.registerWrapper {
+  border-radius: var(--br-lgi);
+  background-color: var(--color-gainsboro-100);
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-mid) var(--padding-5xs)
+    var(--padding-base);
+  z-index: 14;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+.loginText,
+.manglamEventsFrame,
+.registerText,
+.welcomeText {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.manglamEventsFrame {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-298xl);
+  z-index: 13;
+}
+.loginText,
+.registerText,
+.welcomeText {
+  align-items: center;
+  justify-content: center;
+  z-index: 12;
+}
+.loginText,
+.registerText {
+  z-index: 10;
+}
+.loginText {
+  z-index: 8;
+}
+.userIcon {
+  flex: 1;
+  z-index: 6;
+}
+.frame1,
+.frame2,
+.userIcon {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.frame2 {
+  flex: 1;
+  z-index: 4;
+}
+.frame1 {
+  width: 1104px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame3,
+.frame4,
+.frame5,
+.frame6 {
+  height: 133px;
+  width: 1180px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -69px;
+  left: 98px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame4,
+.frame5,
+.frame6 {
+  z-index: 5;
+}
+.frame5,
+.frame6 {
+  z-index: 7;
+}
+.frame6 {
+  z-index: 9;
+}
+.header {
+  align-self: stretch;
+  height: 66px;
+  background-color: var(--color-white);
+  border: 1px solid var(--gray-5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-smi)
+    var(--padding-61xl);
+  position: sticky;
+  gap: var(--gap-lgi);
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--blue-font-color);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .manglamEventsFrame {
+    gap: var(--gap-298xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .manglamEventsFrame {
+    gap: var(--gap-298xl);
+  }
+}
